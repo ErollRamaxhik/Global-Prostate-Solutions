@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^(index|contact|surgery|aboutus|products)$ $1.php [NC,L]
+
